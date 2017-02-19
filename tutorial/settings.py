@@ -86,18 +86,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     },
-#    'default': {
-#    'ENGINE': 'django.db.backends.mysql',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-#    'NAME': "bill",                      # Or path to database file if using sqlite3.
-#    # The following settings are not used with sqlite3:
-#    'USER': "root",
-#    'PASSWORD': "root",
-#    'HOST': "localhost",
-#    'PORT': '3306',                      # Set to empty string for default.
-#    'CHARSET': 'utf8',
-#    #'DBENGINE' : 'InnoDB',
-#    'OPTIONS': { "init_command": "SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED", "charset":"utf8mb4", 'autocommit': True },
-#    },
+
 }
 
 
